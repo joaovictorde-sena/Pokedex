@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  font-family: "Shantell Sans", cursive;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+.busca-container {
+  margin-block: 2.5rem;
+  padding: .625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lupa-icon {
+  color: #fff;
+}
+
+
+.busca {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  box-shadow: 10px 20px 40px rgba(255, 255, 255, 0.1);
+  padding-inline: 1.87rem;
+  border-radius: .625rem;
+  width: 0%;
+  color: #615e5e;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  transition: .6s;
+}
+
+.busca:hover {
+  background-color: #fff;
+  width: 30%;
+}
+
+p {
+    color: #000000;
+}
+
+.pokemons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.card {
+  max-width: 300px;
+  padding: 20px;
+  color: #222;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card-image {
+  max-width: 150px;
+}
+
+.type {
+  color: #000;
+  padding-top: 5px;
+  position: relative;
+  top: 45px;
+  transition: top 1s;
+  font-size: 1.25rem;
+}
+
+.card:hover .type {
+  cursor: pointer;
+  top: 0;
+}
+
+.fire {
+    background-color: rgb(255, 78, 9);
+    
+}
+
+.bug {
+    background-color: #f8d5a3;
+}
+
+.normal {
+    background: #fff;
+}
+
+.electric {
+    background-color: #cfac0f;
+}
+
+.ground {
+    background-color: #eeab9d;
+}
+
+.poison {
+    background-color: #b83762;
+}
+
+.fairy {
+    background-color: #f1ddf5;
+}
+
+.grass {
+    background-color: #2f8a2c;
+}
+
+.water {
+    background-color: #41aeda;
+}
+
+.psychic {
+    background-color: #c862e7;
+}
+
+.fighting {
+    background-color: #a8a29a;
+}
+
+.rock {
+  background-color: #726451;
+}
+
+.ghost {
+  background-color: #463c49;
+}
+
+.ice {
+  background-color: #94cbe0;
+}
+
+.dragon {
+  background-color: #be7d27;
+}
