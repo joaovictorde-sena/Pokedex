@@ -21,7 +21,7 @@ function App() {
   };
 
   const arrayPokemons = () => {
-    Array(150)
+    Array(151)
       .fill()
       .map((_, index) => getPokemons(index + 1));
   }
